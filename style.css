@@ -17,7 +17,7 @@ height: 5rem;
 flex-shrink: 0;
 background: var(--Black, #232536);
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
 
 }
 header img {
@@ -32,7 +32,7 @@ margin-left: 2rem;
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    margin-left: 60rem;
+    margin-left: 30rem;
 }
 .navbar a {
     text-decoration: none;
@@ -74,11 +74,12 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 background: var(--Black, #232536);
-gap: 5rem;
+gap: 3rem;
 }
 .footer1 {
     display: flex;
-    gap: 75rem;
+    gap: 25rem;
+    width: 60rem;
 }
 .footer1 img {
     width: 8.75rem;
@@ -107,13 +108,14 @@ text-decoration: none;
 }
 .cta-bg {
     position: relative;
-    width: 80rem;
+    width: 60rem;
     height: 16rem;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
+    padding: 2rem;
 }
 .cta-bg::before {
     content: '';
@@ -159,7 +161,7 @@ font-weight: 700;
 line-height: 1.5rem; /* 133.333% */
 }
 .footer2 {
-    width: 80rem;
+    width: 60rem;
     display: flex;
     justify-content: space-between;
 }
@@ -312,4 +314,19 @@ padding-bottom: 1rem;
 /* Section featured Post*/
 .allWhite {
     background: var(--Light, #FFF);
+}
+
+.featuredPost {
+    display: grid;
+    grid-template-columns: 40.8125rem 28.3125rem;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.rouge {
+    background: red;
+}
+.blue {
+    background: blue;
 }
