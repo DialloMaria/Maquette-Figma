@@ -721,3 +721,278 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.5rem; /* 133.333% */
 }
+.authors {
+    margin-top: 8rem;
+}
+.authors h1 {
+    color: var(--Black, #232536);
+
+/* Heading H2 */
+font-family: Sen;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 133.333% */
+letter-spacing: -0.125rem;
+text-align: center;
+}
+.authors .profile {
+    height: 20.25rem;
+}
+.authors .profile1 {
+    background: var(--Light-grey, #F4F4F4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authors .profile1 .img {
+    width: 8rem;
+height: 8rem;
+flex-shrink: 0;
+border-radius: 8rem;
+background: url(img/profil1.svg), 50% / cover no-repeat;
+}
+.authors .profile1 .name {
+    color: var(--Black, #232536);
+
+/* Heading H3 */
+font-family: Sen;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.5rem; /* 142.857% */
+letter-spacing: -0.0625rem;
+}
+.authors .profile1 .job {
+    width: 15rem;
+    color: var(--Medium-grey, #6D6E76);
+text-align: center;
+
+/* Body 2 */
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 142.857% */
+}
+.authors .profile1 .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-right: 2rem;
+}
+.authors .profile2 .img {
+    width: 8rem;
+height: 8rem;
+flex-shrink: 0;
+border-radius: 8rem;
+background: url(img/profil2.svg), 50% / cover no-repeat;
+}
+.authors .profile2 {
+    background: var(--Light-yellow, #FBF6EA);
+}
+.authors .profile3 .img {
+    width: 8rem;
+height: 8rem;
+flex-shrink: 0;
+border-radius: 8rem;
+background: url(img/profil3.svg), 50% / cover no-repeat;
+}
+.authors .profile3 {
+    background: var(--Light-grey, #F4F4F4);
+}
+.authors .profile4 .img {
+    width: 8rem;
+height: 8rem;
+flex-shrink: 0;
+border-radius: 8rem;
+background: url(img/profil4.svg), 50% / cover no-repeat;
+}
+.weAre {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.logos {
+    display: flex;
+    gap: 3.5rem;
+}
+.jonathan {
+    width: 88%;
+    height: 29rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    background: var(--Light-yellow, #FBF6EA);
+    display: grid;
+    grid-template-columns: 40% 10% 50%;
+}
+.flex-a {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5rem 5rem;
+}
+.flex-a .content-flex {
+    color: var(--Black, #232536);
+
+/* Cap 1 */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.25rem; /* 125% */
+letter-spacing: 0.1875rem;
+text-transform: uppercase;
+
+}
+.flex-a h1 {
+    width: 21.5625rem;
+    color: var(--Black, #232536);
+
+/* Heading H2 */
+font-family: Sen;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 133.333% */
+letter-spacing: -0.125rem;
+}
+.flex-a p {
+    width: 21.8125rem;
+    color: var(--Black, #232536);
+
+/* Body 1 */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 175% */  
+}
+.gridb {
+    width: 0.0625rem;
+height: 19.375rem;
+opacity: 0.4;
+background: #6D6E76;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5rem;
+margin-right: 5rem;
+}
+.gridc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.gridc p {
+    width: 29.3125rem;
+    color: var(--Black, #232536);
+
+/* Heading H4 */
+font-family: Sen;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem; /* 133.333% */
+}
+.jonathan-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.jonathan-profile .vallem img {
+    width: 3rem;
+height: 3rem;
+flex-shrink: 0;
+border-radius: 3rem;
+}
+.vallem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.vallem .name .nom {
+    color: var(--Black, #232536);
+
+/* Heading H4 */
+font-family: Sen;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem; /* 133.333% */
+}
+.vallem .name .adresse {
+    color: var(--Medium-grey, #6D6E76);
+
+/* Body 1 */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 175% */
+margin-top: -1rem;
+}
+
+.jonathan-profile .direction {
+    display: flex;
+    margin-left: -15rem;
+    gap: 1.5rem;
+}
+.direction .img1 img {
+    width: 2rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.section-finale {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.section-finale h1{
+    width: 25.875rem;
+    color: var(--Black, #232536);
+text-align: center;
+
+/* Heading H2 */
+font-family: Sen;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 133.333% */
+letter-spacing: -0.125rem;
+}
+.section-finale p {
+    width: 25.3125rem;
+    color: var(--Medium-grey, #6D6E76);
+text-align: center;
+
+/* Body 1 */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 175% */
+}
+.section-finale button {
+    border: #FFD050 solid 1px;
+    padding: 1rem;
+    color: var(--Black, #232536);
+font-family: Sen;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 133.333% */
+}
